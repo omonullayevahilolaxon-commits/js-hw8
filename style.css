@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  gap: 200px;
+  margin: 0;
+  padding: 20px;
+  background: white;
+}
+
+.palettes {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.palette {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 258px);
+  gap: 20px;
+}
+
+.block {
+  width: 258px;
+  height: 148px;
+  background: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
